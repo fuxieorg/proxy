@@ -1,0 +1,53 @@
+payload:
+  # ===== OpenAI / ChatGPT 核心 =====
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+
+  # ===== 登录与账户 =====
+  - DOMAIN-SUFFIX,auth.openai.com
+  - DOMAIN,auth0.openai.com
+  - DOMAIN,setup.auth.openai.com
+
+  # ===== 桌面端与移动端 =====
+  - DOMAIN,desktop.chat.openai.com
+  - DOMAIN,android.chat.openai.com
+  - DOMAIN,ios.chat.openai.com
+
+  # ===== WebSocket =====
+  - DOMAIN,ws.chatgpt.com
+
+  # ===== WorkOS 登录组件 =====
+  - DOMAIN,cdn.workos.com
+  - DOMAIN,forwarder.workos.com
+  - DOMAIN,setup.workos.com
+  - DOMAIN,images.workoscdn.com
+  - DOMAIN,workos.imgix.net
+
+  # ===== 验证 =====
+  - DOMAIN,challenges.cloudflare.com
+
+  # ===== 邮件与客服资源 =====
+  - DOMAIN-SUFFIX,ct.sendgrid.net
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+
+  # ===== 支付页面 =====
+  - DOMAIN,js.stripe.com
+
+  # ===== ChatGPT Windows 客户端 =====
+  - PROCESS-NAME,ChatGPT.exe
+  - PROCESS-NAME,ChatGPT
+
+  # ===== ChatGPT Atlas =====
+  - PROCESS-NAME,ChatGPT Atlas
+  - PROCESS-NAME,ChatGPT Atlas (Service)
+  - PROCESS-NAME,ChatGPT Atlas (Renderer)
+  - PROCESS-NAME,ChatGPT Atlas (GPU)
+
+  # ===== Codex =====
+  - PROCESS-NAME,Codex.exe
+  - PROCESS-NAME,Codex
+  - PROCESS-NAME,Codex Helper
