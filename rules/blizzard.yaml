@@ -1,0 +1,37 @@
+payload:
+  # ===== Blizzard / Battle.net =====
+  - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN-SUFFIX,blizzard.net
+  - DOMAIN-SUFFIX,blizzardgames.com
+  - DOMAIN-SUFFIX,battle.net
+
+  # ===== Battle.net 客户端与更新服务 =====
+  - PROCESS-NAME,Battle.net.exe
+  - PROCESS-NAME,Battle.net
+  - PROCESS-NAME,Agent.exe
+  - PROCESS-NAME,BlizzardBrowser.exe
+
+  # ===== World of Warcraft =====
+  - PROCESS-NAME,Wow.exe
+  - PROCESS-NAME,WowClassic.exe
+  - PROCESS-NAME,WowClassicT.exe
+
+  # ===== Overwatch =====
+  - PROCESS-NAME,Overwatch.exe
+
+  # ===== Diablo =====
+  - PROCESS-NAME,Diablo IV.exe
+  - PROCESS-NAME,Diablo III.exe
+
+  # ===== Hearthstone =====
+  - PROCESS-NAME,Hearthstone.exe
+
+  # ===== StarCraft =====
+  - PROCESS-NAME,StarCraft.exe
+  - PROCESS-NAME,StarCraft II.exe
+
+  # ===== Heroes of the Storm =====
+  - PROCESS-NAME,HeroesOfTheStorm_x64.exe
+
+  # ===== Warcraft III =====
+  - PROCESS-NAME,Warcraft III.exe
