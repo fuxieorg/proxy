@@ -11,6 +11,9 @@ payload:
   - PROCESS-NAME,Agent.exe
   - PROCESS-NAME,BlizzardBrowser.exe
 
+  # ===== 网易暴雪组件 =====
+  - PROCESS-NAME,GameViewer.exe
+
   # ===== World of Warcraft =====
   - PROCESS-NAME,Wow.exe
   - PROCESS-NAME,WowClassic.exe
